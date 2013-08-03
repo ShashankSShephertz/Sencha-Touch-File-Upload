@@ -18,6 +18,8 @@ App42.initialize("Your APIKey","Your SecretKey");
 
 ```
 
+#Design Details:
+
 Uploading files using App42 Javascript SDK:
 
 1. Add requires statment in your sencha touch view part.
