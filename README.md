@@ -22,14 +22,14 @@ App42.initialize("Your APIKey","Your SecretKey");
 
 Uploading files using App42 Javascript SDK:
 
-1. Add requires statment in your sencha touch view part.
+Add requires statment in your sencha touch view part.
 
 ```
 requires: ['Ext.field.File']
 
 ```
 
-2. Add file tag in your view part child items.
+Add file tag in your view part child items.
 
 ```
 xtype: 'file',
@@ -37,7 +37,7 @@ name: 'fileId'
 
 ```
 
-3. Upload file using App42
+Upload file using App42
 
 ```
 var filePath = document.getElementsByName("fileId"),
